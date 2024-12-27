@@ -6,7 +6,7 @@ void main() {
   print("The minimum value is : ${getMinimum(numbers)}");
 }
 
-// Create a function which take a list of intgers loob around it and return the minimum value 
+// Create a function which take a list of integers loob around it and return the minimum value 
 int getMinimum (List numbers) {
   int minimum = numbers[0]; 
   // loob around the list
