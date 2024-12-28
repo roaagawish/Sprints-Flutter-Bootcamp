@@ -21,7 +21,7 @@ class BankAccount {
         print("************************************************************************************");
       } else {
         // error message in case the amount is more than the balance
-        print(" Process Failed! \n The balance in your account is not enough to withdrawed $amount\$ from your account. Your balance is $balance\$ .");
+        print("Process Failed! \nThe balance in your account is not enough to withdrawed $amount\$ from your account. Your balance is $balance\$ .");
         print("************************************************************************************");
       }
     } else {
