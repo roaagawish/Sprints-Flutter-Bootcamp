@@ -1,16 +1,28 @@
 # simple_ui
 
-A new Flutter project.
+# My First Flutter Project
 
-## Getting Started
+This is a simple Flutter project that displays two images (one from the local assets and the other from a network URL) along with a text description. The app uses a custom font (`Suwannaphum`) and a blue theme color.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Displays two images: one from the local assets and one from a network URL.
+- Custom theme using `ColorScheme` and a custom font (`Suwannaphum`).
+- Centered title in the app bar.
+- Layout the screen with columns and rows and containers.
+- Text below the images with custom styling.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run this project locally, follow the steps below:
+
+### Prerequisites
+
+- Install [Flutter](https://flutter.dev/docs/get-started/install) on your system.
+- Install an IDE (VS Code, Android Studio, etc.) with Flutter and Dart plugins.
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/my-first-flutter-project.git
+cd my-first-flutter-project
