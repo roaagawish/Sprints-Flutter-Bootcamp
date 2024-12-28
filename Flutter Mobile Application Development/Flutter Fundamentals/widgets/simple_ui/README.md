@@ -26,3 +26,27 @@ To run this project locally, follow the steps below:
 ```bash
 git clone https://github.com/your-username/my-first-flutter-project.git
 cd my-first-flutter-project
+
+Install dependencies
+Run the following command to get the project dependencies:
+flutter pub get
+
+Run the app
+Connect a device or start an emulator, then run the app with:
+flutter run
+
+### File Structure
+
+my-first-flutter-project/
+├── assets/
+│   └── dart-logo-for-shares.png  # Local asset image
+├── lib/
+│   ├── home.dart                # Home screen widget
+│   └── main.dart                # Main entry point of the app
+├── pubspec.yaml                 # Flutter configuration file
+├── README.md                    # Project documentation
+└── ...
+Customizations
+You can replace the image in assets/dart-logo-for-shares.png with your own asset image.
+The network image URL in the Image.network widget can be replaced with any valid image URL.
+To change the theme or font, modify the theme section in the main.dart file.
