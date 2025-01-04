@@ -21,7 +21,7 @@ the app also uses media query for responsivity
 
 ## Images
 
-![Alt text](screenshot_1.jpg) ![Alt text](screenshoot_2.jpg)
+![Alt text](screenshot_1.jpg = 200x) ![Alt text](screenshoot_2.jpg)
 ## Installtion
 
 1. Clone the repository.
