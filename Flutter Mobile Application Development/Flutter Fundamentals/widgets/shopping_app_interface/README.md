@@ -19,6 +19,9 @@ the app also uses media query for responsivity
 - Responsivity using media quary.
 - Add to cart and snackbar confirmation message
 
+## Images
+
+![Alt text](screenshot_1.jpg) ![Alt text](screenshoot_2.jpg)
 ## Installtion
 
 1. Clone the repository.
