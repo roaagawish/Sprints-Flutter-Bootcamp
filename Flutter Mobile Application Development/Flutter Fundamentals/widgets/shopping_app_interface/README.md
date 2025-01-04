@@ -21,7 +21,8 @@ the app also uses media query for responsivity
 
 ## Images
 
-[<img src="(screenshot_1.jpg" width="250"/>]((screenshot_1.jpg)   [<img src="(screenshoot_2.jpg" width="250"/>]((screenshoot_2.jpg) 
+[<img src="(screenshot_1.jpg)" width="250"/>]((screenshot_1.jpg)   [<img src="(screenshoot_2.jpg)" width="250"/>]((screenshoot_2.jpg) 
+<img src="screenshot_1.jpg" alt="drawing" width="200"/>
 
 ## Installtion
 
