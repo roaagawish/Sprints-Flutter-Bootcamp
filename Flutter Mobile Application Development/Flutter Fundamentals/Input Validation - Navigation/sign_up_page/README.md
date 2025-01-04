@@ -35,10 +35,11 @@ A new Flutter project for a shopping app with signup page contains two screen (s
 - Navigation between screens.
    
 ## Images 
-![Alt text](screenshot_1.png)   ![Alt text](screenshot_2.png)
-![Alt text](screenshot_3.png)
-![Alt text](screenshot_4.png)
-![Alt text](screenshot_5.png)
+![Alt text](screenshot1.png)   
+![Alt text](screenshot2.png)
+![Alt text](screenshot3.png)
+![Alt text](screenshot4.png)
+![Alt text](screenshot5.png)
 
 ## Installtion
 
