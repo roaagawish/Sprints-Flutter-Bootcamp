@@ -35,11 +35,7 @@ A new Flutter project for a shopping app with signup page contains two screen (s
 - Navigation between screens.
    
 ## Images 
-![Alt text](screenshot1.jpg)   
-![Alt text](screenshot2.ipg)
-![Alt text](screenshot3.jpg)
-![Alt text](screenshot4.jpg)
-![Alt text](screenshot5.jpg)
+<img src="screenshot1.jpg" alt="drawing" width="200"/><img src="screenshot2.jpg" alt="drawing" width="200"/><img src="screentshot3.jpg" alt="drawing" width="200"/><img src="screenshot4.jpg" alt="drawing" width="200"/><img src="screenshot5.jpg" alt="drawing" width="200"/>
 
 ## Installtion
 
