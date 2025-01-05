@@ -1,19 +1,6 @@
 # sign_up_page
 
-A new Flutter project for a shopping app with signup page contains two screen (signup and home ) contains some common flutter widgets : 
-1- Form 
-2- TextFormField
-3- MatrialButton
-4- Statefull widget
-5- Column and Row
-6- Gridview
-7- Listview
-8- clipRRect
-9- SizedBox
-10- card
-11- Align
-12- Image.assets
-13- Text
+A new Flutter project for a shopping app with signup page contains two screen (signup and home ) contains some common flutter widgets : Form - TextFormField - MatrialButton - Statefull widget - Column and Row - Gridview - Listview - clipRRect - SizedBox - card - Align - Image.assets - Text
 
 ## Features
 
