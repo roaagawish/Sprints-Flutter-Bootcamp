@@ -1,0 +1,52 @@
+{
+  "SignUp" : {
+    "SignUp" : "Sign Up",
+    "FullName" : "Full Name",
+    "Phone" : "Phone Number",
+    "Email" : "Email Address",
+    "Password" :"Password",
+    "ConfirmPassword" : "Confirm Password",
+    "EmptyNameError" : "Name must not be empty",
+    "NameError" : "First letter must be capitalized",
+    "EmptyPhoneError" : "Phone Number must not be empty",
+    "PhoneError" : "Phone Number must be 11 digit",
+    "EmptyEmailError" : "Email address must not be empty",
+    "EmailError" : "Unveiled email address , must contains @ symbol and .com",
+    "EmptyPasswordError" : "Password must not be empty",
+    "PasswordError" : "Password must be at least 6 characters",
+    "EmptyConfirmPasswordError" : "Password must not be empty",
+    "ConfirmPasswordError" : "Password does not match"
+  },
+  "dialogTitle" : "Congratulations",
+  "dialogBody" : "Account Created Successfully",
+  "dialogAction" : "Ok",
+  "AppTitle" : "Shopping App",
+
+  "Product" : {
+    "Earrings" : "Earrings",
+    "Neckless" : "Neckless",
+    "Ring" : "Ring",
+    "Braclet" : "Braclet",
+    "Price" : "Price"
+  },
+
+  "AppBarTitle" : "Shopping App",
+  "OurProudects" : "Our Proudects",
+  "NewArrivals" :  "New Arrivals",
+  "HotOffers" :  "Hot Offers",
+
+  "SnackBar" : "Item added to The cart",
+  "SnackBarAction" : "Ok",
+
+
+  "Drawer" : {
+    "Notifications" : "Notifications",
+    "Languages" : "Languages" ,
+    "Setting" : "Setting",
+    "About" : "About", 
+    "Logout" : "Logout",
+    "ChooseLang" :"Choose Language" ,
+    "English" : "English",
+    "Arabic" :"Arabic" 
+  }
+}
