@@ -19,7 +19,7 @@ class EmployeeService {
       prefs.setString("employeeData" , cachedData);
       data.forEach((employeeData) {
         Employee employee = Employee.fromJson(employeeData);
-        employees.add(employee);
+        employees.add(employee); 
       });
     } catch (e) {
       throw Exception("Error fetching data , Erorr : ${response.statusCode}");

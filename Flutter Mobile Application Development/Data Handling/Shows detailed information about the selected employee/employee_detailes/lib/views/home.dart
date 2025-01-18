@@ -24,7 +24,7 @@ class _HomeState extends State<Home> {
      employee =  await PreferencesService().getEmployeeFromCached(); 
       print("cached");
     if (employee.isEmpty) {
-     employee = await EmployeeService().getEmployees(); 
+     employee = await EmployeeService().getEmployees();  
      print("server");
     } 
      
