@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/employee_model.dart';
 import '../services/employee_service.dart';
+import '../services/preferences_service.dart';
 import 'employee_detaiels.dart';
 
 class Home extends StatefulWidget {
@@ -17,27 +18,21 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   List<Employee> employee = [];
-  List<Employee> cachedEmployee = [];
   bool loading = true;
 
   getemployeeData() async {
-    getEmployeeFromCached();
-    if (cachedEmployee.isEmpty) {
+     employee =  await PreferencesService().getEmployeeFromCached(); 
+      print("cached");
+    if (employee.isEmpty) {
      employee = await EmployeeService().getEmployees(); 
      print("server");
-    } else { employee = cachedEmployee; }
+    } 
+     
     loading = false;
     setState(() {});
   }
 
-  getEmployeeFromCached() async{
-    final prefs = await SharedPreferences.getInstance();
-    var cachedData = prefs.getString("cachedEmployeeData");
-    if (cachedData != null ) {
-    var jsonData = jsonDecode(cachedData);
-    jsonData.forEach((item) {cachedEmployee.add(Employee.fromJson(item));}); 
-    }
-  }
+
 
   @override
   void initState() {
