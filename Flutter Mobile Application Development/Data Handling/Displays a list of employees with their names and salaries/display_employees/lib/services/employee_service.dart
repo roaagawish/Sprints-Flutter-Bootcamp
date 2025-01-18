@@ -1,26 +1,23 @@
-import 'package:dio/dio.dart';
+import 'dart:convert';
 
 import '../models/employee_model.dart';
- // import 'package:http/http.dart' as http;
+import 'package:http/http.dart' as http;
 
 
 class EmployeeService {
   String url = "https://jsonplaceholder.typicode.com/users";
 
   Future<List<Employee>> getEmployees() async {
-    // final response =  await http.get(Uri.parse(url));
-    final response =  await Dio().get(url);
+    final response =  await http.get(Uri.parse(url));
     List<Employee> employees = [];
     
-    try {
-      var data = response.data;
+    if (response.statusCode == 200) {
+      final data = jsonDecode(response.body);
       data.forEach((employeeData) {
-        Employee employee = Employee.fromJson(employeeData);
-        employees.add(employee);
+        employees.add(Employee.fromJson(employeeData));
       });
-      print(response);
-    } catch (e) {
-      print(e);
+    } else {
+      throw Exception("Failed to load Data , Error : ${response.statusCode}");
     }
 
     return employees;

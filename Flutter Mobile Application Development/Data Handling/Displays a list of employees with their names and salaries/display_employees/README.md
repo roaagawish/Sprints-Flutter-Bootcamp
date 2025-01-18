@@ -5,7 +5,7 @@ A new Flutter project fetches employees data from API and displays it in a listV
 
 ## Features 
 
- - Fetch employee data using dio.
+ - Fetch employee data using http.
  - Parse json responses into employee model.
  - Display Employees Data using ListView and ListTile.
 
