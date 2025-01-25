@@ -18,11 +18,12 @@ flutter_bloc: ^9.0.0
 ## Images
 
 Light mode 
-<img src="screenshot1.jpg" alt="drawing" width="200"/> <img src="screenshot2.jpg" alt="drawing" width="200"/> <img src="screenshot3.jpg" alt="drawing" width="200"/> <img src="screenshot4.jpg" alt="drawing" width="200"/> 
-<img src="screenshot5.jpg" alt="drawing" width="200"/> <img src="screenshot6.jpg" alt="drawing" width="200"/> 
+
+ <img src="screenshot1.jpg" alt="drawing" width="200"/> <img src="screenshot2.jpg" alt="drawing" width="200"/> <img src="screenshot3.jpg" alt="drawing" width="200"/> <img src="screenshot4.jpg" alt="drawing" width="200"/> <img src="screenshot5.jpg" alt="drawing" width="200"/> <img src="screenshot6.jpg" alt="drawing" width="200"/> 
 
 Dark mode 
-<img src="screenshot7.jpg" alt="drawing" width="200"/> <img src="screenshot8.jpg" alt="drawing" width="200"/> 
+
+ <img src="screenshot7.jpg" alt="drawing" width="200"/> <img src="screenshot8.jpg" alt="drawing" width="200"/> 
 
 
 ## Installtion
