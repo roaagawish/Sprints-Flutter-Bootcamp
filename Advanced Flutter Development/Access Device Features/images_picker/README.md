@@ -9,10 +9,8 @@ This Flutter app pickes image from phone storge and display them in listview.
  <img src="photo4.jpg" alt="drawing" width="200"/> <img src="photo5.jpg" alt="drawing" width="200"/>
 
 ## Dependencies  
-- `device_info_plus` for getting device information  
+- image_picker: ^1.1.2 
 
-## Permissions  
-- No special permissions required  
 
 ## How to Run  
 1. Clone the repository  
