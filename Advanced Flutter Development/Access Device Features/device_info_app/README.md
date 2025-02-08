@@ -4,7 +4,7 @@ This Flutter app retrieves and displays the device model and OS version.
 
 ## Images
 
- <img src="photo.jpg" alt="drawing" width="250"/>
+ <img src="photo.jpg" alt="drawing" width="250"/> <img src="Screenshot.jpg" alt="drawing" width="250"/> 
 
 ## Dependencies  
 - `device_info_plus` for getting device information  
