@@ -1,0 +1,70 @@
+{
+  "SignUp" : {
+    "SignUp" : "انشاء حساب",
+    "FullName" : "الاسم كامل",
+    "Phone" : "رقم الهاتف",
+    "Email" : "البريد الاكتروني",
+    "Password" :"كلمة المرور",
+    "ConfirmPassword" : "تأكيد كلمة المرور",
+    "EmptyNameError" : "الاسم لا يمكن ان يكون فارغ",
+    "NameError" : "الحرف الاول من الاسم يجب ان يكون كبير",
+    "EmptyPhoneError" : "رقم الهاتف لا يمكن ان يكون فارغ",
+    "PhoneError" : "لا يمكن ان يقب رقم الهاتف عن 11 رقم ",
+    "EmptyEmailError" : "البريد الاكتروني لا يمكن ان يكون فارغ",
+    "EmailError" : "بريد الكتروني غير صحيح ! يجب ان يحتوي علي علامة @ و علي .com",
+    "EmptyPasswordError" : "كلمة المرور لا يمكن ان تكون فارغ",
+    "PasswordError" : "يجب الا تقل كلمة المرور عن 6 احرف",
+    "EmptyConfirmPasswordError" : "كلمة المرور لا يمكن ان تكون فارغ",
+    "ConfirmPasswordError" : "كلمة المرور غير متطابقة",
+    "signUpButton": "إنشاء حساب",
+    "alreadyHaveAnAccount": "  هل لديك حساب بالفعل؟",
+    "goToLoginPage": "تسجيل الدخول الآن",
+    "loginSuccessMessage": "تم تسجيل الدخول بنجاح",
+    "accountAlreadyRegisterd": "هذا البريد الإلكتروني مسجل بالفعل!",
+    "userAddedSuccessfully": "تم إضافة المستخدم بنجاح!",
+    "welcomeBack" : "!مرحبا بعودتك",
+    "loginButton" : "تسجيل الدخول",
+    "donotHaveAccount": "ليس لديك حساب؟",
+    "registerNow": "سجل الآن",
+    "wrongPassword": "كلمة المرور خاطئة! يرجى المحاولة مرة أخرى",
+    "accountNotFound": "الحساب غير موجود! يرجى التسجيل أولاً",
+    "loggedin": "تم تسجيل الدخول بنجاح!",
+    "loginError" : "خطأ غير متوقع! حاول مرة اخري ",
+    "weakPassword" : "كلمة مرور ضعيفة",
+    "logoutmsg" : "تم تسجيل الخروج"
+  },
+  "dialogTitle" : "تهانينا",
+  "dialogBody" : "تم انشاء الحساب بنجاح",
+  "dialogAction" : "حسنا",
+
+
+  "AppTitle" : "تطبيق تسوق",
+
+  "Product" : {
+    "Earrings" : "اقراط",
+    "Neckless" : "سلسة",
+    "Ring" : "خاتم",
+    "Braclet" : "اسوارة",
+    "Price" : "سعر"
+  },
+
+  "AppBarTitle" : "تطبيق تسوق",
+  "OurProudects" : "منتجاتنا",
+  "NewArrivals" :  "وصل حديثا",
+  "HotOffers" :  "عروض",
+
+  "SnackBar" : "تمت الاضافة الي عربة التسوق",
+  "SnackBarAction" : "حسنا",
+
+
+  "Drawer" : {
+    "Notifications" : "اشعارات",
+    "Languages" : "لغات" ,
+    "Setting" : "اعدادات",
+    "About" : "عن التطبيق", 
+    "Logout" : "تسجيل الخروج",
+    "ChooseLang" :"اختر اللغة" ,
+    "English" : "الانجليزية",
+    "Arabic" :"العربية" 
+  }
+}
