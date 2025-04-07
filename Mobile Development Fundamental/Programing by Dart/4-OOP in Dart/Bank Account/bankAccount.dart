@@ -14,9 +14,7 @@ class BankAccount {
     if (amount > 0 ) { 
     // check if the amount is less than the balance
      if (amount <= _balance ) {   
-        // withdraw from the balance
         _balance -= amount; 
-        // information message
         print("$amount\$ is withdrawed from your account successfully. Your balance is $_balance\$ .");
         print("************************************************************************************");
       } else {
@@ -35,9 +33,7 @@ class BankAccount {
  void deposit (double amount) {
   // make sure the amount is valid positive.
   if ( amount >= 0 ) { 
-    // add it to the balance 
     _balance += amount; 
-   // information message 
    print("$amount\$ is deposited to your account successfully. Your balance is $_balance\$ now.");
    print("************************************************************************************");
   } else {
@@ -47,7 +43,7 @@ class BankAccount {
   }
  }
 
-// displayAccountInfo method to print the account ID and the current balance.
+// displayAccountInfo 
  void displayAccountInfo() {
   print("Welcome to our bank: ");
   print("Your Account Id is : $accountID");
